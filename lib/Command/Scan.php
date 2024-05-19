@@ -50,7 +50,7 @@ class Scan extends FolderCommand {
 			->addOption(
 				'path',
 				'p',
-				InputArgument::OPTIONAL,
+				InputOption::VALUE_REQUIRED,
 				'limit rescan to this path, eg. --path="/shared/media/Music"'
 			)->addOption(
 				'shallow',
